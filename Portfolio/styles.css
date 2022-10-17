@@ -149,6 +149,10 @@ main{
     font-family: 'Lobster', cursive;
 }
 
+.about1{
+    color: aqua;
+}
+
 @keyframes animateWidth {
     from{
         width: 30px;
