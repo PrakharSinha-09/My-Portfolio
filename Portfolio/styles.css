@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.foot{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: red; */
+    height: 30px;
+    padding: 10px;
+}
+
+.foot h3{
+    text-align: center;
+}
+
+.about{
+    margin-top: 10px;
+}
+
+main{
+    /* min-height: calc(100vh-39px-30px); */
+    /* height: 88.3vh; */
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    margin: 10px 9px;
+    height: 302px;
+    /* width: 250px; */
+    /* border: 1px solid gray; */
+    border-radius: 30px;
+    box-shadow: 10px 10px lightgray;
+    animation: animateWidth 6s ease-out 1;
+}
+
+/* .img1{
+    position: relative;
+}
+.img2{
+    position: relative;
+} */
+
+.developer{
+    /* position: absolute; */
+    left: 210px;
+    top: 213px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.developer1{
+    /* position: absolute; */
+    border-radius: 20px;
+    right: 196px;
+    width: 150px;
+    height: 150px;
+}
+
+/* .link1:hover{
+    color: rgb(94, 94, 243);
+    cursor: pointer;
+} */
+
+.heading{
+    background-color: antiquewhite;
+    color: blue;
+    text-align: center;
+    font-size: small;
+}
+
+.paras{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.p1{
+    margin-top: 40px;
+    font-size: 10px;
+    /* font-family: 'Dancing Script', cursive; */
+    color: red;
+}
+
+.p2{
+    margin: 72px 0px 0px -25px;
+    font-family: 'Dancing Script', cursive;
+    color: blueviolet;
+    font-size: 25px;
+    animation: animateFonts 6s ease-out 1;  
+}
+
+.bold1{
+    color: red;
+}
+
+.brief{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* font-family: 'Satisfy', cursive; */
+}
+
+.brief pre{
+    font-family: 'Satisfy', cursive;
+}
+
+.buttonss{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.socialImage{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.socialImage:hover{
+    box-shadow: 2px 1px gray;
+}
+
+/* .socialImage1{
+    width: 50px;
+    height: 50px;
+} */
+
+.secondList{
+    margin-left: 0px;
+}
+
+.connections{
+
+    margin:29px 0px 4px 15px;
+    font-family: 'Lobster', cursive;
+}
+
+@keyframes animateWidth {
+    from{
+        width: 30px;
+        /* height: 300px; */
+    }
+    to{
+        width: 250px;
+        /* height: 600px; */
+    }
+}
+
+@keyframes animateFonts {
+    from{
+        font-size: -20px;
+    }
+    to{
+        font-size: 25px;
+    }  
+}
+
+@media only screen and (max-width: 642px) {
+    .developer{
+        height: 70px;
+        width: 100px;
+    }
+
+    .developer1{
+        height: 70px;
+
+        width: 100px;
+    }
+
+    .container{
+        flex-wrap: wrap-reverse;
+    }
+
+    .paras{
+        flex-wrap: wrap-reverse;
+    }
+}

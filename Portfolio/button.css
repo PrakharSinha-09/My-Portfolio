@@ -1,0 +1,26 @@
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 18px;
+  font-family: Georgia;
+  color: black;
+  font-size: 14px;
+  background: #efefef;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  /* border-color: #ff0051; */
+}
+
+button{
+  transition: background 0.5s;
+}
+.btn:hover {
+  background: rgb(236, 104, 104);
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+.btn1{
+  margin-left: 50px;
+}
